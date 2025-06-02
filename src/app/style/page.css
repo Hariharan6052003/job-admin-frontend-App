@@ -237,3 +237,96 @@ h2 {
 
 
 
+
+
+
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .btn-create-job {
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem 1rem;
+    margin-top: 1rem;
+  }
+
+  .main-content {
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  .middle-content {
+    grid-template-columns: 1fr; /* Single column */
+    padding: 0 10px;
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  .job-card {
+    padding: 15px;
+    min-height: 300px;
+  }
+
+  .job-title {
+    font-size: 16px;
+  }
+
+  .job-meta {
+    flex-direction: column;
+    gap: 4px;
+    font-size: 13px;
+  }
+
+  .apply-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .posted-time {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+
+  .job-desc-list {
+    font-size: 13px;
+  }
+
+  .search-icon {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  h2 {
+    font-size: 13px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}

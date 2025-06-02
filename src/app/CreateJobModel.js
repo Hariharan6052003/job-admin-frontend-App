@@ -11,7 +11,7 @@ export default function CreateJobModal({ onClose }) {
         salaryMax: "",
         deadline: "",
         description: "",
-        status: "published", // default
+        status: "published", 
     });
 
 

@@ -8,8 +8,7 @@ const pool = new Pool({
   host: 'dpg-d0u2lbemcj7s73998tlg-a.oregon-postgres.render.com',
   database: 'job_admission_admin',
   password: 'RYdl2nFz0bGBI2UnWFtOHEy5oJAogCz2',
-  port: 5432,
-  ssl: { rejectUnauthorized: false },
+  port: 5432
 });
 
 export async function GET() {
